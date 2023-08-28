@@ -9,7 +9,7 @@ _____|<br>
 _____|<br>
 _____|<br>
 6. add all files <br> <b>$ git add .</b>
-7. commit all files <br> <b>$ git commit -m "Initial Comm"it</b>
+7. commit all files <br> <b>$ git commit -m "Initial Commit"</b>
 8. add remote as 'origin' with repo link <br> <b>git remote add origin https://github.com/JAY-KUMAR-SAHU/LocalRepo.git</b> <br>
 9. to verify remote <br> <b> $ git remote -v </b> <br>
 10. to check branch <br> <b>$ git branch</b> <br>
