@@ -1,8 +1,8 @@
-<!-- <style> -->
+<style>
     p { color: green; }
-<!-- </style> -->
+</style>
 # local to remote
-1. make a directory in local <br> $ mkdir LocalRepo</p> <br>
+1. make a directory in local <br> <p>$ mkdir LocalRepo</p> <br>
 2. go into that directory <br> <p>$ cd LocalRepo</p> <br>
 3. see hidden files to find .git <br> <p> $ dir -force </p> (Windows) <br> <p> $ ls -a </p> <br>
 4. initialize empty git repository in path/LocalRepo/.git/ <br> $ git init <br>
