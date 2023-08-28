@@ -1,4 +1,4 @@
-p { color: green; }
+p { color: green; font-weight: bold;}
 # local to remote
 1. make a directory in local <br> <p>$ mkdir LocalRepo</p> <br>
 2. go into that directory <br> <p>$ cd LocalRepo</p> <br>
