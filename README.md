@@ -6,8 +6,8 @@
 # set proxy
 a. check proxy --> git config --global http.proxy <br>
 b. set proxy   --> git config --global http.proxy http://proxyUserName:proxyPassword@proxy.server.com:port <br>
-                  Eg. git config--global http.proxy http://172.16.199.20:8080
-a. unset proxy --> git config --global --unset http.proxy <br> <br>
+_ _ _ _ _ _ _ _ __ Eg. git config--global http.proxy http://172.16.199.20:8080 <br>
+c. unset proxy --> git config --global --unset http.proxy <br> <br>
 
 4. initialize empty git repository in path/LocalRepo/.git/ <br> <b>$ git init</b> <br>
 _____|<br>
