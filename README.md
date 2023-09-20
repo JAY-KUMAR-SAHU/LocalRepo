@@ -1,7 +1,14 @@
 # local to remote
 1. make a directory in local <br> <b>$ mkdir LocalRepo</b> <br>
 2. go into that directory <br> <b>$ cd LocalRepo</b> <br>
-3. see hidden files to find .git <br> <b> $ dir -force </b> (Windows) <br> <b> $ ls -a </b> <br>
+3. see hidden files to find .git <br> <b> $ dir -force </b> (Windows) <br> <b> $ ls -a </b> <br> <br>
+
+# set proxy
+a. check proxy --> git config --global http.proxy <br>
+b. set proxy   --> git config --global http.proxy http://proxyUserName:proxyPassword@proxy.server.com:port <br>
+                  Eg. git config--global http.proxy http://172.16.199.20:8080
+a. unset proxy --> git config --global --unset http.proxy <br> <br>
+
 4. initialize empty git repository in path/LocalRepo/.git/ <br> <b>$ git init</b> <br>
 _____|<br>
 _____|<br>
